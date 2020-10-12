@@ -1,0 +1,77 @@
+h2{
+    color: red;
+    font-size: x-large;
+}
+
+h1{
+    color: green;
+}
+
+#a{
+    color: blueviolet; font-size: 50px;
+    margin: 10px;
+    background-color: crimson;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.azul{
+    color: blue;
+}
+
+nav{
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav:hover{
+    background-color: rgb(131, 131, 253);
+}
+
+.columna{
+    background-color: fuchsia;
+    color: white;
+    padding: 30px;
+    width: 25%;
+    margin: 10px;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: cadetblue;
+    color: white;
+}
+button:hover{
+    background-color: darkblue;
+}
+button:active{
+    background-color: tomato;
+}
+
+.fer{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    nav{
+        flex-direction: column;
+    }
+    .nav{
+        margin:10px 0px;
+    }
+}
